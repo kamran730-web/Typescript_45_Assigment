@@ -1,0 +1,27 @@
+let locations:string[] = ["Saudia","London","Japan","Dubai","Zustralia"]
+console.log(locations);
+let copy = [...locations].sort()
+console.log(copy);
+console.log(locations);
+let revser =[...locations].reverse()
+console.log(revser);
+console.log(locations);
+let orignal_change = locations
+orignal_change.reverse()
+console.log(orignal_change);
+console.log(locations);
+locations.reverse()
+console.log(locations);
+locations.sort()
+console.log(locations);
+locations.sort().reverse()
+console.log(locations);
+
+
+
+
+
+
+
+
+
